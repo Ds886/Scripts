@@ -15,7 +15,7 @@ function fncFormatDC
     return $DC
 }
 
-# Format OU path based on a given syntax subou.subou...subou.primeou for example Users.Test
+# Format OU path based on a given OU path as "Sub...SubSubOU.SubOU.OU" for example Users.Test
 function fncFormatOU
 {
     param([string]$strOU)
